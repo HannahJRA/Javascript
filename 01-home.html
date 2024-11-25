@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <style>
+        .button100 {
+            color: white;
+            display: block;
+            background-color: grey;
+            padding: 10px 25px;
+            margin: 15px;
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: left;
+            font-size: 23px;
+        }
+        .button100:hover {
+            box-shadow: 10px;
+            background-color: rgb(206, 110, 110);
+            color: black;
+            opacity: 0.7;
+        }
+
+        .blink1 {
+            animation-name: flash;
+            animation-duration: 0.7s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-play-state: running;
+            margin-left: 25px;
+            margin-top: 20px;
+        }
+        @keyframes flash {
+            0%{  color: rgb(206, 110, 110)}
+            100%{  color: black}
+        }
+    </style>
+<body>
+<h1 class="blink1"><i class="fa-solid fa-house"></i> This is my Javascript page. </h1><br><br>
+<a href="04-myScript.html" class="button100">Learning Practice</a>
+<a href="05-var-const-let.html" class="button100">Var/Const/Let</a>
+<a href="02-conditional-statements.html" class="button100">Conditional Statements (e.g. True/False)</a>
+<a href="03-functions.html" class="button100">Functions</a>
+<a href="06-blocks-and-scope.html" class="button100">Blocks And Scope</a>
+<a href="games/01-all-games.html" class="button100">Games</a>
+</body>
+</html>
